@@ -40,11 +40,6 @@ function setup() {
 		console.log(url);
 	}
 
-	// text = createGraphics(400,400);
-	// text.fill(255);
-	// text.textAlign(CENTER);
-	// text.textSize(50);
-	// text.text('Shenzhen',150,150);
 
 	// loadJSON('https://api.openweathermap.org/data/2.5/weather?q=London&APPID=8e4575aa9f11331ed843842479e9ae79&units=metric', gotData);
 
