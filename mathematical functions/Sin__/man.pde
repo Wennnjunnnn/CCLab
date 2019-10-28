@@ -88,10 +88,7 @@ class MAN {
       lkneex -=a;
       rkneex +=a;
     }
-
-
-
-    
+   
     stroke(0,200);
     strokeWeight(3);
     noFill();

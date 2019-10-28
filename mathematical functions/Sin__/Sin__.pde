@@ -3,7 +3,6 @@ MAN sineman;
 float []m;
 float []n;
 
-
 int x;
 float y;
 
@@ -17,8 +16,6 @@ void setup() {
 
   m = new float[width+1];
   n = new float[width+1];
-
-
 }
 
 void draw() {
@@ -55,9 +52,6 @@ void draw() {
     m[width] = width;
     n[width] = y/50*70;
   }
-
-
-
 
   x++;
 }

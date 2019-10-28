@@ -3,13 +3,11 @@ MAN sineman;
 float []m;
 float []n;
 
-
 int x;
 float y;
 
 void setup() {
   size(500, 500);
-
 
   frameRate(60);
 
@@ -41,10 +39,6 @@ void draw() {
     popMatrix();
   }
 
-
-
-
-
   if (x<width) {
     m[x] = x;
     n[x] = y/50*70;
@@ -56,9 +50,6 @@ void draw() {
     m[width] = width;
     n[width] = y/50*70;
   }
-
-
-
 
   x++;
 }
