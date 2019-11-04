@@ -1,5 +1,3 @@
-
-
 function Box(x, y, w, h,r,g,b) {
   var options = {
     friction: 0.3,

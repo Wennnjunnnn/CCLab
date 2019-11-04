@@ -1,5 +1,3 @@
-
-
 var Engine = Matter.Engine,
   World = Matter.World,
   Bodies = Matter.Bodies;
@@ -46,11 +44,6 @@ var Engine = Matter.Engine,
   	}
   }
 }
-
-// function keyPressed() {
-//   if (key == ' ') {
-//   }
-// }
 
 function mousePressed() {
 	var x = random(10, 40);
